@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\MakeTreeTxt]
+@="Make Tree.txt (v4compiler)"
+"Icon"="C:\\PathH\\v4compiler.py,0"
+
+[HKEY_CLASSES_ROOT\Directory\shell\MakeTreeTxt\command]
+@="\"C:\\Users\\%USERNAME%\\AppData\\Local\\Microsoft\\WindowsApps\\pythonw.exe\" \"C:\\PathH\\v4compiler.py\" \"%V\""
+
+; ⚠️ TRICK: If Python is installed elsewhere, adjust the path above.
